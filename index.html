@@ -33,10 +33,10 @@
     <header class="headeris">
       <nav class="navbar">
         <div class="nav-meniu">
-          <a href="#" class="hamburger-icon">
+          <!-- <a href="#" class="hamburger-icon">
             <i class="fas fa-bars"></i>
-          </a>
-          <a href="#home" class="Pagrindins"> Pagrindinis </a>
+          </a> -->
+          <a href="#home" class="Pagrindinis"> Pagrindinis </a>
           <a href="#about" class="Apie-mus"> Apie mus </a>
           <div class="nav-logo">
             <img src="img/logo1.png" alt="" class="logotipas" />
@@ -56,29 +56,55 @@
       <a href="#featured" class="button">Daugiau</a>
     </div>
     <!-- sektorius 2 apie mus -->
+
     <section id="about" class="About-us">
       <div class="title">
         <h2 class="title1">Apie Tapatuli</h2>
       </div>
       <div class="about-section">
-        <img src="img/pav4.png" class="about-foto" alt="" />
+        <div class="slider">
+          <div class="slides">
+            <div class="slide active">
+              <img src="img/pav4.png" class="about-foto" alt="" />
+            </div>
+            <div class="slide">
+              <img src="img/pav6.png" class="about-foto" alt="" />
+            </div>
+            <div class="slide">
+              <img src="img/pav11.png" class="about-foto" alt="" />
+            </div>
+          </div>
+          <div class="dots">
+            <span class="dot active" onclick="showSlide(0)"></span>
+            <span class="dot" onclick="showSlide(1)"></span>
+            <span class="dot" onclick="showSlide(2)"></span>
+          </div>
+        </div>
         <article class="about-text">
-          <h3>Rankų darbo vilnos gaminiai</h3>
+          <h3>Tapatuli – šeimos tradicija, sukurta iš meilės vilnai</h3>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
-            quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
-            unde dolor?
+            Tapatuli savo kelionę į vilnos pasaulį pradėjo prieš 5 metus,
+            pradedami nuo paprastų, bet ypatingų tapkučių. Su laiku ir aistra
+            vilnos gamybai, asortimentas plėtėsi – nuo tapkučių iki pirties
+            kepurių, šalikų, skarų, sagių bei natūralių kempinių. Dabar
+            „Tapatuli“ dalyvauja įvairiose mugėse ir su malonumu gamina
+            produktus pagal individualius užsakymus.
           </p>
           <p>
-            Mūsų išskirtinės vilnos tapkutės, pirties kepurės, šalikai ir kiti
-            gaminiai - tai ne tik grožis, bet šiluma, kurią suteikia kiekvienas
-            su meile sukurtas kūrinys.
+            Kiekvienas mūsų kūrinys atspindi šilumą, unikalumą ir natūralų
+            vilnos prisilietimą, perduodamą iš rankų į rankas. Mūsų išskirtiniai
+            vilnos gaminiai ne tik džiugina akį savo grožiu, bet ir suteikia
+            šilumą bei natūralų komfortą. Vilna neleidžia kauptis drėgmei,
+            skatina gerą kraujotaką, turi antibakterinių savybių ir švelniai
+            masažuoja odą, todėl mūsų gaminiai neša ne tik estetinį, bet ir
+            sveikatinamąjį poveikį.
           </p>
-          <a href="#" class="button2">Read More</a>
         </article>
       </div>
     </section>
+
     <!-- sektorius 3 kategorijos -->
+    <h2 id="featured" class="title">Gaminių kategorijos</h2>
     <div class="gallery">
       <div class="card">
         <div class="overlay"></div>
@@ -113,16 +139,16 @@
         <img src="img/pav16.png" alt="" />
       </div>
       <div class="instagram-img">
-        <img src="img/pav12.png" alt="" />
+        <img src="img/pav10.png" alt="" />
       </div>
       <div class="instagram-img">
-        <img src="img/pav10.png" alt="" />
+        <img src="img/pav11.png" alt="" />
       </div>
       <div class="instagram-img">
         <img src="img/pav13.png" alt="" />
       </div>
     </section>
-    <script src="burger.js"></script>
+    <script src="javascript.js"></script>
   </body>
 
   <!-- footeris -->
